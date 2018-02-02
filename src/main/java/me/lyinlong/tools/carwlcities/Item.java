@@ -8,6 +8,8 @@ public class Item {
     private String code;
     private List<Item> items;
 
+    private String url;
+
     public Item() {
     }
 
@@ -39,5 +41,13 @@ public class Item {
 
     public void setItems(List<Item> items) {
         this.items = items;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
     }
 }
